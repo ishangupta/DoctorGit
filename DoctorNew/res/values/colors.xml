@@ -1,0 +1,15 @@
+<resources>
+
+    <color name="border_color">#dedede</color>
+    <color name="header_color">#f6f6f6</color>
+    <color name="header_border_shadow">#ffffff</color>
+    <color name="section_color">#f0f0f0</color>
+    <color name="Blue">#2980b9</color>
+    <color name="White">#ffffff</color>
+    <color name="Black">#000000</color>
+    <color name="Gray">#c9c9c9</color>
+    <color name="GrayLight">#eeeeee</color>
+    <color name="GrayHot">#272727</color>
+      <color name="select_color">#A60606</color>
+
+</resources>

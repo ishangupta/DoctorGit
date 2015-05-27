@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:background="#e7e7e7">
+
+    <TextView
+        android:id="@+id/tv_findDoctor"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="FIND A DOCTOR"
+        android:background="#4E8999"
+        android:textColor="#ffffff"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/tv_about"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="ABOUT WINTHROP"
+        android:layout_marginTop="10dp"
+        android:background="#4E8999"
+        android:textColor="#ffffff"
+        android:gravity="center" />
+
+</LinearLayout>

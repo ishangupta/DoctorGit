@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#e7e7e7"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res/com.ons.doctor"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+         android:layout_weight="2"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <com.ons.doctor.CircularImageView
+            android:id="@+id/img_profile_image"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_launcher"
+            app:border="true"
+            app:border_color="@color/GrayLight"
+            app:border_width="2dp"
+            app:shadow="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="TextView"
+            android:textColor="#4DC9D1" />
+
+        <TextView
+            android:id="@+id/tv_aadress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="TextView" />
+
+        <ImageView
+            android:id="@+id/img_verified"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/verify" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingRight="5dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/img_rating"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/rating" />
+
+        <TextView
+            android:id="@+id/tv_distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="1ml"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</LinearLayout>
